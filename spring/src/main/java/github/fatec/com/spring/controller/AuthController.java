@@ -22,4 +22,6 @@ public class AuthController {
     public Token login(@RequestBody Auth request) {
         return tokenSecurity.gerarToken(request);
     }
+
+    
 }
